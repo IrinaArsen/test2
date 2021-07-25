@@ -1,0 +1,1528 @@
+/*@media screen and (max-width: 1920px) {*/
+* {
+  margin: 0;
+}
+
+body {
+  width: 1920px;
+  height: 3518px;
+
+  background: #f9fafe;
+}
+
+@media (max-width: 320px) {
+  body {
+    width: 100%;
+  }
+}
+
+/*корзина*/
+#logo {
+  position: absolute;
+  width: 41px;
+  height: 52.88px;
+  left: 235px;
+  top: 49px;
+}
+
+/* текст storefy*/
+.text {
+  position: absolute;
+  width: 117px;
+  height: 36px;
+  left: 284px;
+  top: 57px;
+
+  font-family: Raleway;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 36px;
+
+  line-height: 100%;
+  color: rgb(34, 116, 238);
+  background: linear-gradient(
+    90deg,
+    rgba(34, 116, 238, 1) 8%,
+    rgba(34, 201, 238, 1) 84%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*мужчина*/
+.man {
+  position: absolute;
+  width: 717px;
+  height: 973px;
+  left: 1203px;
+  top: 0px;
+}
+
+/*наушники */
+
+.a {
+  position: absolute;
+  width: 387px;
+  height: 624px;
+  left: 1050px;
+  top: 174px;
+}
+
+/*белый квадрат*/
+.shop2 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 1615px;
+  top: 40px;
+
+  background: #ffffff;
+  box-shadow: 8px 8px 34px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.shop {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 1634px;
+  top: 59px;
+}
+
+/*круг*/
+.ellipse {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  left: 1674px;
+  top: 50px;
+  border-radius: 22px;
+  background: #2274ee;
+  color: white;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 100%;
+  /* or 14px */
+
+  align-items: center;
+  text-align: center;
+}
+
+/*текст*/
+.air {
+  position: absolute;
+  width: 696px;
+  height: 174px;
+  left: 235px;
+  top: 261px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 58px;
+  line-height: 100%;
+  /* or 58px */
+
+  color: #35394a;
+}
+/*текст айрподс*/
+.pods {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 100%;
+  /* or 58px */
+
+  color: #35394a;
+}
+/*квадрат для яблока*/
+.apple {
+  border-radius: 20px;
+  border: 2px silver solid;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 250px;
+  top: 125px;
+
+  background: #ffffff;
+  box-shadow: 8px 8px 34px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+}
+/*яблоко*/
+.apple .ap {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 1px;
+  top: 1px;
+}
+
+/*полоска */
+
+.rec {
+  position: absolute;
+  width: 500px;
+  height: 1px;
+  left: 1px;
+  top: 200px;
+
+  background: #c4c4c4;
+  opacity: 0.5;
+}
+
+/*Экономия*/
+.price {
+  position: absolute;
+  width: 326px;
+  height: 27px;
+  left: 235px;
+  top: 492px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #35394a;
+}
+
+/*660*/
+.price2 {
+  position: absolute;
+  width: 133px;
+  height: 30px;
+  left: 235px;
+  top: 540px;
+  color: white;
+  background: #1b67da;
+  border-radius: 555px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+.price3 {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.rec3 {
+  position: absolute;
+  width: 43.23px;
+  height: 4.57px;
+  left: 10px;
+  top: 15px;
+
+  background: #4bffbe;
+  opacity: 0.8;
+  transform: rotate(-15deg);
+}
+
+/*экономия2*/
+.econ {
+  position: absolute;
+  width: 160px;
+  height: 30px;
+  left: 303px;
+  top: 540px;
+  z-index: 0;
+
+  background: #2274ee;
+  border-radius: 555px;
+}
+.econ2 {
+  position: absolute;
+  width: 133px;
+  height: 21px;
+  left: 10px;
+  top: 5px;
+  text-align: center;
+  color: white;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+.econ2 {
+  position: absolute;
+  width: 133px;
+  height: 21px;
+  left: 10px;
+  top: 5px;
+  text-align: center;
+  color: white;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+.econ3 {
+  position: absolute;
+  width: 77px;
+  height: 38px;
+  right: 150px;
+  top: 30px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+
+  text-transform: uppercase;
+
+  color: #2274ee;
+}
+
+.rec2 {
+  position: absolute;
+  width: 1px;
+  height: 72px;
+  left: 486px;
+  top: 540px;
+
+  background: #c4c4c4;
+}
+/*Осталось на складе*/
+.balance2 {
+  position: absolute;
+  width: 174px;
+  height: 21px;
+  left: 517px;
+  top: 544px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #272a36;
+
+  opacity: 0.5;
+}
+.balance3 {
+  position: absolute;
+  width: 85px;
+  height: 38px;
+  left: 517px;
+  top: 575px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #2274ee;
+}
+.balance4 {
+  position: absolute;
+  width: 85px;
+  height: 38px;
+  left: 555px;
+  top: 580px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 38px;
+  /* identical to box height */
+
+  color: #272a36;
+}
+.rec4 {
+  position: absolute;
+  width: 500px;
+  height: 1px;
+  left: 235px;
+  top: 637px;
+
+  background: #c4c4c4;
+  opacity: 0.5;
+}
+
+/*заказ*/
+.order {
+  position: absolute;
+  width: 295px;
+  height: 62px;
+  left: 235px;
+  top: 681px;
+  cursor: pointer;
+  background: #2274ee;
+  border-radius: 555px;
+  border: 1px #2274ee;
+  z-index: 1;
+}
+.order2 {
+  position: absolute;
+  width: 170px;
+  height: 19px;
+  left: 52px;
+  top: 22px;
+  cursor: pointer;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+
+.order3 {
+  position: absolute;
+  width: 238px;
+  height: 50px;
+  left: 264px;
+  top: 702px;
+
+  background: #2274ee;
+  opacity: 0.5;
+  filter: blur(34px);
+  border-radius: 555px;
+  z-index: 0;
+}
+
+/*второй блок*/
+.main {
+  position: absolute;
+  width: 1920px;
+  height: 173px;
+  left: 0px;
+  top: 973px;
+
+  background: #e8eff9;
+}
+.box2 {
+  position: absolute;
+  left: 11%;
+  right: 0%;
+  top: 30%;
+  bottom: 2%;
+}
+.box3 {
+  position: absolute;
+  width: 227px;
+  height: 22px;
+  left: 325px;
+  top: 50px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 100%;
+  /* identical to box height, or 22px */
+
+  color: #35394a;
+}
+.box4 {
+  position: absolute;
+  width: 233px;
+  height: 32px;
+  left: 326px;
+  top: 80px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /* or 16px */
+
+  color: #35394a;
+
+  opacity: 0.5;
+}
+/*наушник*/
+.earphone2 {
+  position: absolute;
+  left: 40%;
+  right: 0%;
+  top: 30%;
+  bottom: 2%;
+}
+/*поддержка */
+.earphone3 {
+  position: absolute;
+  width: 157px;
+  height: 22px;
+  left: 859px;
+  top: 50px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 100%;
+
+  color: #35394a;
+}
+.earphone4 {
+  position: absolute;
+  width: 259px;
+  height: 48px;
+  left: 860px;
+  top: 80px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 100%;
+
+  color: #35394a;
+
+  opacity: 0.5;
+}
+.phone {
+  position: absolute;
+  left: 68%;
+  right: 4.92%;
+  top: 30%;
+  bottom: 4.03%;
+}
+.phone3 {
+  position: absolute;
+  width: 304px;
+  height: 22px;
+  left: 90px;
+  top: 9px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 100%;
+  color: #35394a;
+}
+.phone4 {
+  position: absolute;
+  width: 233px;
+  height: 48px;
+  left: 90px;
+  top: 32px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 100%;
+  color: #35394a;
+  opacity: 0.5;
+}
+/*3 блок*/
+.main2 {
+  position: absolute;
+  width: 540px;
+  height: 686px;
+  left: 100px;
+  top: 600px;
+}
+/* AirPods — совершенно уникальные беспроводные наушники. */
+.pods3 {
+  position: absolute;
+  width: 739px;
+  height: 168px;
+  left: 946px;
+  top: 655px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 100%;
+  /* or 56px */
+
+  color: #35394a;
+}
+.pods2 {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 100%;
+  color: #4f5266;
+}
+
+.vec2 {
+  position: absolute;
+  left: 950px;
+  top: 870px;
+}
+.vec3 {
+  position: absolute;
+  width: 217px;
+  height: 22px;
+  left: 1036px;
+  top: 870px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 100%;
+  /* identical to box height, or 22px */
+
+  color: #35394a;
+}
+.vec4 {
+  position: absolute;
+  width: 246px;
+  height: 80px;
+  left: 1037px;
+  top: 900px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 100%;
+  /* or 16px */
+
+  color: #595e74;
+  opacity: 0.5;
+}
+.vec5 {
+  position: absolute;
+  left: 400px;
+  top: 5px;
+}
+.vec6 {
+  position: absolute;
+  width: 231px;
+  height: 22px;
+  left: 470px;
+  top: 5px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 100%;
+  /* identical to box height, or 22px */
+
+  color: #35394a;
+}
+.vec7 {
+  position: absolute;
+  width: 276px;
+  height: 64px;
+  left: 470px;
+  top: 30px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 100%;
+  /* or 16px */
+
+  color: #35394a;
+
+  opacity: 0.5;
+}
+
+.v1 {
+  position: absolute;
+  left: 950px;
+  top: 1030px;
+}
+.v2 {
+  position: absolute;
+  width: 217px;
+  height: 22px;
+  left: 1036px;
+  top: 1030px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 100%;
+  /* identical to box height, or 22px */
+
+  color: #35394a;
+}
+.v3 {
+  position: absolute;
+  width: 246px;
+  height: 80px;
+  left: 1037px;
+  top: 1060px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 100%;
+  /* or 16px */
+
+  color: #595e74;
+  opacity: 0.5;
+}
+.ve1 {
+  position: absolute;
+  left: 1350px;
+  top: 1030px;
+}
+.ve2 {
+  position: absolute;
+  width: 250px;
+  height: 22px;
+  left: 1408px;
+  top: 1030px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  /* identical to box height, or 22px */
+
+  color: #35394a;
+}
+.ve3 {
+  position: absolute;
+  width: 276px;
+  height: 64px;
+  left: 1409px;
+  top: 1060px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 100%;
+  /* or 16px */
+
+  color: #35394a;
+
+  opacity: 0.5;
+}
+.rec5 {
+  position: absolute;
+  width: 739px;
+  height: 1px;
+  left: 946px;
+  top: 1160px;
+
+  background: #c4c4c4;
+}
+
+/*втрая часть экономии*/
+
+/*Экономия*/
+.pr {
+  position: absolute;
+  width: 326px;
+  height: 27px;
+  left: 949px;
+  top: 1180px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+
+  color: #35394a;
+}
+
+/*660*/
+.pr2 {
+  position: absolute;
+  width: 133px;
+  height: 30px;
+  left: 949px;
+  top: 1230px;
+  color: white;
+  background: #1b67da;
+  border-radius: 555px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+.pr3 {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+/*экономия2*/
+.ec {
+  position: absolute;
+  width: 160px;
+  height: 30px;
+  left: 1010px;
+  top: 1230px;
+  z-index: 0;
+
+  background: #2274ee;
+  border-radius: 555px;
+}
+.ec2 {
+  position: absolute;
+  width: 133px;
+  height: 21px;
+  left: 10px;
+  top: 5px;
+  text-align: center;
+  color: white;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+.ec2 {
+  position: absolute;
+  width: 133px;
+  height: 21px;
+  left: 10px;
+  top: 5px;
+  text-align: center;
+  color: white;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+.ec3 {
+  position: absolute;
+  width: 77px;
+  height: 38px;
+  right: 155px;
+  top: 40px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+
+  text-transform: uppercase;
+
+  color: #2274ee;
+}
+
+.re2 {
+  position: absolute;
+  width: 1px;
+  height: 72px;
+  left: 1200px;
+  top: 1230px;
+
+  background: #c4c4c4;
+}
+
+/*Осталось на складе*/
+.balan2 {
+  position: absolute;
+  width: 174px;
+  height: 21px;
+  left: 1231px;
+  top: 1230px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #272a36;
+
+  opacity: 0.5;
+}
+.balan3 {
+  position: absolute;
+  width: 85px;
+  height: 38px;
+  left: 1231px;
+  top: 1260px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #2274ee;
+}
+.balan4 {
+  position: absolute;
+  width: 85px;
+  height: 38px;
+  left: 1260px;
+  top: 1265px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 38px;
+  /* identical to box height */
+
+  color: #272a36;
+}
+
+/*заказ*/
+.ord {
+  position: absolute;
+  width: 250px;
+  height: 62px;
+  left: 1445px;
+  top: 1235px;
+
+  background: #2274ee;
+  border-radius: 555px;
+  cursor: pointer;
+  border: 0px;
+  z-index: 1;
+}
+.ord2 {
+  position: absolute;
+  width: 170px;
+  height: 19px;
+  left: 52px;
+  top: 22px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+
+.ord3 {
+  position: absolute;
+  width: 193.63px;
+  height: 50px;
+  left: 1450px;
+  top: 1255px;
+
+  background: #2274ee;
+  opacity: 0.5;
+  filter: blur(34px);
+  border-radius: 555px;
+  z-index: 0;
+}
+
+/*4 блок*/
+.block {
+  position: absolute;
+  width: 1920px;
+  height: 173px;
+  left: 0px;
+  top: 2055px;
+
+  background: #e8eff9;
+}
+.block2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 235px;
+  top: 24px;
+  border-radius: 70px;
+
+  border: 4px solid #2274ee;
+}
+.block3 {
+  position: absolute;
+  width: 49px;
+  height: 38px;
+  left: 28px;
+  top: 25px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #2274ee;
+}
+.block4 {
+  position: absolute;
+  width: 50px;
+  height: 21px;
+  left: 28px;
+  top: 60px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+
+  color: #272933;
+
+  opacity: 0.5;
+}
+/* Осталось не так много! Успей забронировать! */
+.reservation {
+  position: absolute;
+  width: 573px;
+  height: 31px;
+  left: 385px;
+  top: 55px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+
+  color: #35394a;
+}
+.reservation2 {
+  position: absolute;
+  width: 366px;
+  height: 21px;
+  left: 385px;
+  top: 87px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #35394a;
+
+  opacity: 0.5;
+}
+.res {
+  position: absolute;
+  width: 4px;
+  height: 71px;
+  left: 1032px;
+  top: 55px;
+
+  background: #f9fafe;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.reservation3 {
+  position: absolute;
+  width: 95px;
+  height: 19px;
+  left: 1102px;
+  top: 60px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+
+  color: #35394a;
+}
+.reservation4 {
+  position: absolute;
+  width: 115px;
+  height: 19px;
+  left: 1082px;
+  top: 80px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: right;
+
+  color: #ff1414;
+}
+.plus {
+  position: absolute;
+  width: 155px;
+  height: 62px;
+  left: 1280px;
+  top: 48px;
+
+  background: #ffffff;
+  border: 1px solid #d5d9df;
+  box-sizing: border-box;
+  border-radius: 555px;
+}
+.plus1 {
+  position: absolute;
+  width: 2px;
+  height: 10px;
+  left: 25px;
+  top: 28px;
+
+  background: #35394a;
+  border-radius: 5px;
+  transform: rotate(90deg);
+  opacity: 0.5;
+}
+.plus2 {
+  position: absolute;
+  width: 41px;
+  height: 19px;
+  left: 60px;
+  top: 25px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #35394a;
+}
+.plus3 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 120px;
+  top: 22px;
+
+  opacity: 0.5;
+}
+.but {
+  position: absolute;
+  width: 250px;
+  height: 62px;
+  left: 1510px;
+  top: 49px;
+  cursor: pointer;
+  background: #2274ee;
+  border-radius: 555px;
+  border: 1px #2274ee;
+  z-index: 1;
+}
+.but2 {
+  position: absolute;
+  width: 170px;
+  height: 19px;
+  left: 40px;
+  top: 22px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.but3 {
+  position: absolute;
+  width: 238px;
+  height: 50px;
+  left: 1510px;
+  top: 70px;
+
+  background: #2274ee;
+  opacity: 0.5;
+  filter: blur(34px);
+  border-radius: 555px;
+  z-index: 0;
+}
+
+/*5 блок*/
+.foto {
+  position: absolute;
+  width: 1450px;
+  height: 700px;
+  left: 235px;
+  top: 2315px;
+}
+.foto2 {
+  position: absolute;
+  width: 69px;
+  height: 87px;
+  left: 937px;
+  top: 2496px;
+}
+.bron {
+  position: absolute;
+  width: 437px;
+  height: 72px;
+  left: 734px;
+  top: 2599px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 100%;
+  /* or 36px */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+/*текст айрподс*/
+.bron2 {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 100%;
+  /* or 58px */
+
+  color: white;
+}
+
+/*квадрат для яблока*/
+.appl {
+  border-radius: 20px;
+  border: 2px silver solid;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 420px;
+  top: 30px;
+
+  background: #ffffff;
+  box-shadow: 8px 8px 34px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+}
+/*яблоко*/
+.appl .app {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 5px;
+  top: 5px;
+}
+
+/*Quantity*/
+
+.Quan {
+  position: absolute;
+  width: 66px;
+  height: 16px;
+  left: 760px;
+  top: 2731px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 100%;
+
+  color: #ffffff;
+
+  opacity: 0.7;
+}
+.Quan1 {
+  position: absolute;
+  width: 113px;
+  height: 20px;
+  left: 850px;
+  top: 2732px;
+  border: 1px #ff4b4b;
+  background: #ff4b4b;
+  border-radius: 555px;
+}
+.Quan2 {
+  position: absolute;
+  width: 87px;
+  height: 15px;
+  left: 10px;
+  top: 1px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  color: #ffffff;
+}
+
+.pl1 {
+  position: absolute;
+  width: 2.8px;
+  height: 14px;
+  left: 774px;
+  top: 2775px;
+
+  background: #ffffff;
+  opacity: 0.5;
+  border-radius: 5px;
+  transform: rotate(90deg);
+}
+.pl2 {
+  position: absolute;
+  width: 56px;
+  height: 27px;
+  left: 797px;
+  top: 2763px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #ffffff;
+}
+.pl3 {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 881px;
+  top: 2771px;
+}
+.pl4 {
+  position: absolute;
+  width: 135px;
+  height: 1px;
+  left: 760px;
+  top: 2806px;
+
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 555px;
+}
+.butt {
+  position: absolute;
+  width: 272px;
+  height: 62px;
+  left: 983px;
+  top: 2747px;
+  border: 1px 2274ee;
+  background: #2274ee;
+  border-radius: 555px;
+  cursor: pointer;
+  z-index: 1;
+}
+.butt2 {
+  position: absolute;
+  width: 170px;
+  height: 19px;
+  left: 40px;
+  top: 20px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 25px;
+
+  color: #ffffff;
+}
+.butt3 {
+  /*тень под кнопкой*/
+  position: absolute;
+  width: 238px;
+  height: 50px;
+  left: 1000px;
+  top: 2768px;
+
+  background: #2274ee;
+  opacity: 0.5;
+  filter: blur(34px);
+  border-radius: 555px;
+  z-index: 0;
+}
+/*text*/
+
+.texxt1 {
+  position: absolute;
+  width: 468px;
+  height: 22px;
+  left: 235px;
+  top: 3116px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 100%;
+
+  text-transform: uppercase;
+
+  color: #35394a;
+}
+.texxt2 {
+  position: absolute;
+  width: 468px;
+  height: 96px;
+  left: 235px;
+  top: 3152px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 100%;
+  /* or 16px */
+
+  color: #35394a;
+
+  opacity: 0.7;
+}
+.texxt4 {
+  position: absolute;
+  width: 468px;
+  height: 22px;
+  left: 725px;
+  top: 3116px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 100%;
+  /* identical to box height, or 22px */
+
+  text-transform: uppercase;
+
+  color: #35394a;
+}
+.texxt5 {
+  position: absolute;
+  width: 468px;
+  height: 96px;
+  left: 725px;
+  top: 3152px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 100%;
+  /* or 16px */
+
+  color: #35394a;
+
+  opacity: 0.7;
+}
+.texxt7 {
+  position: absolute;
+  width: 468px;
+  height: 44px;
+  left: 1215px;
+  top: 3116px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 100%;
+  text-transform: uppercase;
+
+  color: #35394a;
+}
+.texxt8 {
+  position: absolute;
+  width: 468px;
+  height: 128px;
+  left: 1215px;
+  top: 3172px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 100%;
+  /* or 16px */
+
+  color: #35394a;
+
+  opacity: 0.7;
+}
+.Rectang {
+  position: absolute;
+  width: 1450px;
+  height: 1px;
+  left: 235px;
+  top: 3334px;
+
+  background: #35394a;
+  opacity: 0.2;
+}
+
+/*footer*/
+
+.visa {
+  position: absolute;
+  width: 625.1px;
+  height: 70.67px;
+  left: 700px;
+  top: 3355px;
+}
+.acc {
+  position: absolute;
+  width: 120px;
+  height: 16px;
+  left: 850px;
+  top: 3470px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+
+  color: #35394a;
+}
+.Rect {
+  position: absolute;
+  width: 1px;
+  height: 16px;
+  left: 975px;
+  top: 3475px;
+
+  background: #35394a;
+  opacity: 0.7;
+}
+.acc2 {
+  position: absolute;
+  width: 161px;
+  height: 16px;
+  left: 1000px;
+  top: 3477px;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 100%;
+
+  color: #35394a;
+}
+/*}*/
